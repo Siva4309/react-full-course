@@ -3,7 +3,7 @@ import React from 'react'
 //import data from "./data"
 //import { moreData } from "./data"
 //import ListItem from './ListItem';
-import Index from './useState/5-useState-example-3';
+import Index from './useEffect/3-useEffect-example-1';
 
 
 function App() {

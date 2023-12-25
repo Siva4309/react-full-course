@@ -8,6 +8,7 @@ body{
     font-size: 100%;
     letter-spacing: 1px;
     background: #f3f3fb;
+    line-height: 25px;
 }
 
 .App{

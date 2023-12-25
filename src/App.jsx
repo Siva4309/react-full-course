@@ -1,16 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 //import Profile from './Profile';
 //import data from "./data"
 //import { moreData } from "./data"
 //import ListItem from './ListItem';
+import Index from './useState/5-useState-example-3';
 
 
 function App() {
-    useState();
 
     return (
         <div className="App">
-            <h1>Hello Hooks</h1>
+           <Index />
         </div>
     )
 }

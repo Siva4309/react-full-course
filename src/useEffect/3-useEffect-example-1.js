@@ -36,7 +36,7 @@ const Index = () => {
   if (loading) {
     return <div>Loading...</div>;
   }
-
+  //(isError && isError.status)
   if (isError?.status) {
     return (
       <div>

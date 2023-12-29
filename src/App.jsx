@@ -3,15 +3,30 @@ import React from 'react'
 //import data from "./data"
 //import { moreData } from "./data"
 //import ListItem from './ListItem';
-import Index from './useEffect/3-useEffect-example-1';
+// import Index from './customHooks/Example-1/PageTitleOne'
+// import Final from "./customHooks/Example-1/PageTitleTwo"
 
+// import Index from "./customHooks/Example-2/FirstCounter"
+// import Final from "./customHooks/Example-2/SecondCounter"
 
+// import Index from "./customHooks/Example-3/FirstApi"
+// import Final from "./customHooks/Example-3/SecondApi"
+// import Final from "./Fragments/"
+// import Table from './Fragments/Table';
+
+// import Index from "./HigherOderComp/ClickCounter"
+// import Final from "./HigherOderComp/HoverCounter"
+
+import Index from "./useEffect/3-useEffect-example-1"
 function App() {
-
     return (
-        <div className="App">
-           <Index />
-        </div>
+        <div className='App'>
+            {/* <Final /> */}
+            {/* <Table /> */}
+            {/* <Index name={"siva"} />
+            <Final/> */}
+            <Index />
+         </div>  
     )
 }
 

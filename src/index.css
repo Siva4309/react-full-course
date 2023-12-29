@@ -9,8 +9,36 @@ body{
     letter-spacing: 1px;
     background: #f3f3fb;
     line-height: 25px;
+    max-width: 1200px;
 }
 
+input{
+    margin-top: 10px;
+}
+hr{
+    margin-top: 10px;
+}
+.cocktail-data{
+    display: grid;
+grid-template-columns: 1fr;
+gap: 1rem;
+}
+.cocktail-data li img{
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    border: 1px solid black ;
+    margin-top: 15px;
+}
+
+@media screen and (min-width : 769px) {
+    .cocktail-data{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+       
+    }
+    
+}
 .App{
     text-align: center;
 }
@@ -21,6 +49,7 @@ body{
     max-width: 1250px;
     margin: 2rem auto;
     padding: 0px 20px;
+    background: lightblue;
 }
 .comments-container{
     width: 100%;
@@ -84,6 +113,37 @@ letter-spacing: 1px;
 .button:hover{
     background: white;
     color: orangered;
+}
+nav.primary-nav{
+    padding: 20px;
+    background-color: black;
+    font-weight: bold;
+}
+nav a{
+    margin-right: 15px;
+    color: white;
+}
+
+nav a.active{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:992px) {
+    .card-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+}
+.card{
+    padding:10px ;
+    background-color: lightblue;
 }
 /* .post-container{
     width: 100%;
